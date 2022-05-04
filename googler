@@ -2360,8 +2360,8 @@ class GoogleParser(object):
             title_selector = 'div'
             h3_selector = 'div'
         else:
-            div_selector = 'div.g'
-            title_selector = 'div.tF2Cxc > div'
+            div_selector = 'div[data-hveid]'
+            title_selector = 'div'
             h3_selector = 'h3'
 
         # cw is short for collapse_whitespace.
